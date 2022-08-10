@@ -47,7 +47,7 @@ jobs:
         # Upload the artifact (JAR) into AWS Beanstalk
         uses: einaregilsson/beanstalk-deploy@v13
         with:
-          aws_access_key: ${{ secrets.AWS_ACCES_KEY_ID }} #This is referred from Github Secrets
+          aws_access_key: ${{ secrets.AWS_ACEES_KEY_ID }} #This is referred from Github Secrets
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }} #This is referred from Github Secrets
           use_existing_version_if_available: true
           application_name: springboot-gta-ebs-hr-gamma #Application name we created in Elastic BeanStalk
